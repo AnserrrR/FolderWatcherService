@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FolderWatcherService": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

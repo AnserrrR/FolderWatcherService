@@ -1,0 +1,8 @@
+version: '3'
+services:
+  folder-watcher-service:
+    build: .
+    ports:
+      - "5000:80"
+    volumes:
+      - ./resources/watched_folder:/app/resources/watched_folder
